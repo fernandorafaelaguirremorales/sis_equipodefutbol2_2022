@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/estilos.css" type="text/css">
   </head>
   <body>
-    <div class="banner">SISTEMA DE FUTBOL MAGISTERIO FUTBOL CLUB</div>
+    <div class="banner">examen</div>
 
    <form action="validar.php" method="post" autocomplete="off">
       <div class="formu_ingreso">        
