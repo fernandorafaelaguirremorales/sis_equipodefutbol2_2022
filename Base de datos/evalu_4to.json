@@ -1,0 +1,871 @@
+// base de datos
+
+//escuela de futbol,
+
+// coleccion escuela de futbol
+
+{
+    "_id": 1, 
+    "nombre": "Magisterio Futbol Club",
+    "nit": "1343",
+    "logo": "imagen.jpg",
+    "fec_insercion": "2023-10-24T00:00:00.000Z",
+    "fec_modificacion": "2023-10-24T00:00:00.000Z", 
+    "usuario": 1,
+    "estado": "A",
+    "propietarios":{
+        "nombre": "Fernando",
+        "apellidos": "Aguirre",
+        "ci": "484857549",
+        "fecha_nac": "2023-10-10",
+        "fec_insercion": "2023-10-24T18:24:48.000Z",
+        "fec_modificacion": "2023-10-24T18:25:45.000Z", 
+        "usuario": 1,
+        "estado": "A"
+    }
+}
+
+  // coleccion entrenadores
+  [
+    {
+        "_id": 1,
+        "nombre": "Juan",
+        "ap": "Mamani",
+        "am": "Mendoza",
+        "telefono": "78654345",
+        "direccion": "tabladitall",
+        "fec_insercion": "2023-03-28 19:36:25",
+        "fec_modificacion": "2023-03-28 19:36:25",
+        "usuario": 1,
+        "estado": "A",
+      
+        "escuela_de_futbol": {
+            "escuela_futbol_id": 1
+        }
+    },
+    {
+        "_id": 2,
+        "nombre": "Carlo",
+        "ap": "Mastinez",
+        "am": "Aparicio",
+        "telefono": "78654345",
+        "direccion": "Alto Senas",
+        "fec_insercion": "2023-03-28 19:36:25",
+        "fec_modificacion": "2023-03-28 19:36:25",
+        "usuario": 1,
+        "estado": "A",
+      
+        "escuela_de_futbol": {
+            "escuela_futbol_id": 1
+        }
+    },
+    {
+        "_id": 3,
+        "nombre": "Boris",
+        "ap": "Aguirre",
+        "am": "Cuevas",
+        "telefono": "68564322",
+        "direccion": "Mendes Arcos",
+        "fec_insercion": "2023-03-28 19:36:25",
+        "fec_modificacion": "2023-03-28 19:36:25",
+        "usuario": 1,
+        "estado": "A",
+      
+        "escuela_de_futbol": {
+            "escuela_futbol_id": 1
+        }
+    },
+    {
+        "_id": 4,
+        "nombre": "Jenry",
+        "ap": "Cuevas",
+        "am": "Aparicio",
+        "telefono": "9573834",
+        "direccion": "Tabladita",
+        "fec_insercion": "2023-03-28 19:36:25",
+        "fec_modificacion": "2023-03-28 19:36:25",
+        "usuario": 1,
+        "estado": "A",
+      
+        "escuela_de_futbol": {
+            "escuela_futbol_id": 1
+        }
+    },
+    {
+        "_id": 5,
+        "nombre": "Ramiro",
+        "ap": "Ancasi",
+        "am": "Romero",
+        "telefono": "5675466",
+        "direccion": "6 De Agosto",
+        "fec_insercion": "2023-03-28 19:36:25",
+        "fec_modificacion": "2023-03-28 19:36:25",
+        "usuario": 1,
+        "estado": "A",
+      
+        "escuela_de_futbol": {
+            "escuela_futbol_id": 1
+        }
+    },
+    {
+        "_id": 6,
+        "nombre": "Samuel",
+        "ap": "Roman",
+        "am": "Mendes",
+        "telefono": "77270805",
+        "direccion": "Circunvalacion",
+        "fec_insercion": "2023-03-28 19:36:25",
+        "fec_modificacion": "2023-03-28 19:36:25",
+        "usuario": 1,
+        "estado": "A",
+      
+        "escuela_de_futbol": {
+            "escuela_futbol_id": 1
+        }
+    },
+    {
+        "_id": 7,
+        "nombre": "Pedro",
+        "ap": "Maradona",
+        "am": "Cuevas",
+        "telefono": "3456754",
+        "direccion": "1De Mayo",
+        "fec_insercion": "2023-03-28 19:36:25",
+        "fec_modificacion": "2023-03-28 19:36:25",
+        "usuario": 1,
+        "estado": "A",
+      
+        "escuela_de_futbol": {
+            "escuela_futbol_id": 1
+        }
+    },
+    {
+        "_id": 8,
+        "nombre": "Manuel",
+        "ap": "Contreras",
+        "am": "Castro",
+        "telefono": "78654345",
+        "direccion": "Tabladitall",
+        "fec_insercion": "2023-03-28 19:36:25",
+        "fec_modificacion": "2023-03-28 19:36:25",
+        "usuario": 1,
+        "estado": "A",  
+      
+      	"escuela_de_futbol": {
+            "escuela_futbol_id": 1
+        }
+    },
+    {
+        "_id": 9,
+        "nombre": "Carlos",
+        "ap": "Cuevas",
+        "am": "Mendoza",
+        "telefono": "78654345",
+        "direccion": "Tablada",
+        "fec_insercion": "2023-03-28 19:36:25",
+        "fec_modificacion": "2023-03-28 19:36:25",
+        "usuario": 1,
+        "estado": "A",
+      
+        "escuela_de_futbol": {
+            "escuela_futbol_id": 1
+        }
+    },
+    {
+        "_id": 10,
+        "nombre": "Fredi",
+        "ap": "Subia",
+        "am": "Morales",
+        "telefono": "78654345",
+        "direccion": "San Andres",
+        "fec_insercion": "2023-03-28 19:36:25",
+        "fec_modificacion": "2023-03-28 19:36:25",
+        "usuario": 1,
+        "estado": "A",
+
+        "escuela_de_futbol": {
+            "escuela_futbol_id": 1
+        }
+    }
+]
+ 
+// coleccion jugadores
+[
+    {
+    "_id":1,
+    "categorias":[{
+        "nombre":"sub 8",
+        "descripcion":"niños de 8 años"
+    }],
+    "nombre":"Marcelo",
+    "apellidos":"Morales",
+    "ci":"1234567",
+    "fecha_nac":"2021-12-07",
+    "fec_insercion":"2023-03-28 19:36:25",
+    "fec_modificacion":"2023-03-28 19:36:25",
+    "usuario":"1",
+    "estado":"A",
+
+    "escuela_de_futbol": {
+        "escuela_futbol_id": 1
+    }
+},
+    {
+    "_id":2,
+    "categorias":[{
+        "nombre":"Categoria Sub9",
+        "descripcion":"Niños de 9 años"
+    }],
+    "nombre":"Carlos",
+    "apellidos":"Mendoza",
+    "ci":"222222",
+    "fecha_nac":"2021-12-07",
+    "fec_insercion":"2023-03-28 19:36:25",
+    "fec_modificacion":"2023-03-28 19:36:25",
+    "usuario":"1",
+    "estado":"A",
+
+    "escuela_de_futbol": {
+        "escuela_futbol_id": 1
+    }
+},
+    {
+    "_id":3,
+    "categorias":[{
+        "nombre":"Categoria Sub10",
+        "descripcion":"Niños de 10 años"
+    }],
+    "nombre":"Fernando",
+    "apellidos":"Morales",
+    "ci":"333333",
+    "fecha_nac":"2021-12-07",
+    "fec_insercion":"2023-03-28 19:36:25",
+    "fec_modificacion":"2023-03-28 19:36:25",
+    "usuario":"1",
+    "estado":"A",
+
+    "escuela_de_futbol": {
+        "escuela_futbol_id": 1
+    }
+},
+    {
+    "_id":4,
+    "categorias":[{
+        "nombre":"Categoria Sub15",
+        "descripcion":"Jóvenes de 15 años"
+    }],
+    "nombre":"Juan",
+    "apellidos":"Aparicio",
+    "ci":"444444",
+    "fecha_nac":"2021-12-07",
+    "fec_insercion":"2023-03-28 19:36:25",
+    "fec_modificacion":"2023-03-28 19:36:25",
+    "usuario":"1",
+    "estado":"A",
+
+    "escuela_de_futbol": {
+        "escuela_futbol_id": 1
+    }
+},
+    {
+    "_id":5,
+    "categorias":[{
+        "nombre":"Categoria Sub16",
+        "descripcion":"Jóvenes de 16 años"
+    }],
+    "nombre":"Mario",
+    "apellidos":"Almazan",
+    "ci":"55555",
+    "fecha_nac":"2021-12-07",
+    "fec_insercion":"2023-03-28 19:36:26",
+    "fec_modificacion":"2023-03-28 19:36:26",
+    "usuario":"1",
+    "estado":"A",
+
+    "escuela_de_futbol": {
+        "escuela_futbol_id": 1
+    }
+},
+    {
+    "_id":6,
+    "categorias":[{
+        "nombre":"Categoria Sub17",
+        "descripcion":"Jóvenes de 17 años"
+    }],
+    "nombre":"Luis",
+    "apellidos":"Jimenes",
+    "ci":"666666",
+    "fecha_nac":"2021-12-07",
+    "fec_insercion":"2023-03-28 19:36:26",
+    "fec_modificacion":"2023-03-28 19:36:26",
+    "usuario":"1",
+    "estado":"A",
+
+    "escuela_de_futbol": {
+        "escuela_futbol_id": 1
+    }
+},
+    {
+    "_id":7,
+    "categorias":[{
+        "nombre":"Categoria Sub18",
+        "descripcion":"Jóvenes de 18 años"
+    }],
+    "nombre":"Alfredo",
+    "apellidos":"Aramayo",
+    "ci":"777777",
+    "fecha_nac":"2021-12-07",
+    "fec_insercion":"2023-03-28 19:36:26",
+    "fec_modificacion":"2023-03-28 19:36:26",
+    "usuario":"1",
+    "estado":"A",
+
+    "escuela_de_futbol": {
+        "escuela_futbol_id": 1
+    }
+},
+    {
+    "_id":8,
+    "categorias":[{
+        "nombre":"Categoria Sub19",
+        "descripcion":"Jóvenes de 19 años"
+    }],
+    "nombre":"Jorge",
+    "apellidos":"Mora",
+    "ci":"888888",
+    "fecha_nac":"2021-12-07",
+    "fec_insercion":"2023-03-28 19:36:26",
+    "fec_modificacion":"2023-03-28 19:36:26",
+    "usuario":"1",
+    "estado":"A",
+
+    "escuela_de_futbol": {
+        "escuela_futbol_id": 1
+    }
+},
+    {
+    "_id":9,
+    "categorias":[{
+        "nombre":"Categoria Sub20",
+        "descripcion":"Jóvenes de 20 años"
+    }],
+    "nombre":"Luis",
+    "apellidos":"Moreira",
+    "ci":"999999",
+    "fecha_nac":"2021-12-07",
+    "fec_insercion":"2023-03-28 19:36:26",
+    "fec_modificacion":"2023-03-28 19:36:26",
+    "usuario":"1",
+    "estado":"A",
+
+    "escuela_de_futbol": {
+        "escuela_futbol_id": 1
+    }
+},
+    {
+    "_id":10,
+    "categorias":[{
+        "nombre":"Categoria Sub21",
+        "descripcion":"Jóvenes de 21 añoss"
+    }],
+    "nombre":"Ariel",
+    "apellidos":"Camacho",
+    "ci":"1234567",
+    "fecha_nac":"2021-12-07",
+    "fec_insercion":"2023-03-28 19:36:26",
+    "fec_modificacion":"2023-03-28 19:36:26",
+    "usuario":"1",
+    "estado":"A",
+
+    "escuela_de_futbol": {
+        "escuela_futbol_id": 1
+    }
+}
+    ]
+
+//coleccion partidos
+[
+    {
+    "_id":1,
+    "jugadores_titulares":[{
+        "certificado":"CER_Marcelo.jpg",
+        "foto":"Morales.jpg"
+    }],
+    "torneos":[{
+        "nombre":"Tornea tabladita",
+        "lugar":"barrio tabladita",
+        "fecha_inicio":"2021-08-21",
+        "fecha_fin":"2021-12-24"
+    }],
+    "lugar":"Garcia Agrega",
+    "hora":"17:00:00",
+    "fecha":"2021-02-21",
+    "fec_insercion":"2023-03-28 19:36:27",
+    "fec_modificacion":"2023-03-28 19:36:27",
+    "usuario":"1",
+    "estado":"A"
+},
+    {
+    "_id":2,
+    "jugadores_titulares":[{
+        "certificado":"CER_Carlos.jpg",
+        "foto":"Mendoza.jpg"
+    }],
+    "torneos":[{
+        "nombre":"Tornea ATF",
+        "lugar":"Garcia Agrega",
+        "fecha_inicio":"2021-09-21",
+        "fecha_fin":"2021-11-24"
+    }],
+    "lugar":"Garcia Agreda Cancha B",
+    "hora":"14:00:00",
+    "fecha":"2021-02-21",
+    "fec_insercion":"2023-03-28 19:36:27",
+    "fec_modificacion":"2023-03-28 19:36:27",
+    "usuario":"1",
+    "estado":"A"
+},
+    {
+    "_id":3,
+    "jugadores_titulares":[{
+        "certificado":"CER_Fernando.jpg",
+        "foto":"Morales.jpg"
+    }],
+    "torneos":[{
+        "nombre":"Tornea tomatitas",
+        "lugar":"Tomatitas",
+        "fecha_inicio":"2021-03-21",
+        "fecha_fin":"2021-11-24"
+    }],
+    "lugar":"La bombonera",
+    "hora":"13:30:00",
+    "fecha":"2021-02-21",
+    "fec_insercion":"2023-03-28 19:36:27",
+    "fec_modificacion":"2023-03-28 19:36:27",
+    "usuario":"1",
+    "estado":"A"
+},
+    {
+    "_id":4,
+    "jugadores_titulares":[{
+        "certificado":"CER_Juan.jpg",
+        "foto":"Aparicio.jpg"
+    }],
+    "torneos":[{
+        "nombre":"Tornea ATF",
+        "lugar":"Garcia Agreda",
+        "fecha_inicio":"2021-04-21",
+        "fecha_fin":"2021-12-24"
+    }],
+    "lugar":"Cancha la Hoyada",
+    "hora":"17:40:00",
+    "fecha":"2021-02-21",
+    "fec_insercion":"2023-03-28 19:36:27",
+    "fec_modificacion":"2023-03-28 19:36:27",
+    "usuario":"1",
+    "estado":"A"
+},
+    {
+    "_id":5,
+    "jugadores_titulares":[{
+        "certificado":"CER_Mario.jpg",
+        "foto":"Almazan.jpg"
+    }],
+    "torneos":[{
+        "nombre":"Tornea ATF",
+    "lugar":"Garcia Agreda",
+    "fecha_inicio":"2021-04-21",
+    "fecha_fin":"2021-12-24"
+    }],
+    "lugar":"Cancha Lourdes",
+    "hora":"17:12:00",
+    "fecha":"2021-02-21",
+    "fec_insercion":"2023-03-28 19:36:27",
+    "fec_modificacion":"2023-03-28 19:36:27",
+    "usuario":"1",
+    "estado":"A"
+},
+    {
+    "_id":6,
+    "jugadores_titulares":[{
+        "certificado":"CER_Mario.jpg",
+        "foto":"Almazan.jpg"
+    }],
+    "torneos":[{ 
+        "nombre":"Tornea tabladitall",
+        "lugar":"barrio tabladitall",
+        "fecha_inicio":"2021-07-21",
+        "fecha_fin":"2021-12-24"
+    }],
+    "lugar":"Garcia Agrega Cancha A",
+    "hora":"11:00:00",
+    "fecha":"2021-02-21",
+    "fec_insercion":"2023-03-28 19:36:27",
+    "fec_modificacion":"2023-03-28 19:36:27",
+    "usuario":"1",
+    "estado":"A"
+},
+    {
+    "_id":7,
+    "jugadores_titulares":[{
+        "certificado":"CER_Alfredo.jpg",
+        "foto":"Aramayo.jpg"
+    }],
+
+    "torneos":[{
+        "nombre":"Tornea San Andres", 
+        "lugar":"Comunidad San andres", 
+        "fecha_inicio":"2021-04-21", 
+        "fecha fin":"2021-12-24"
+    }],
+    "lugar":"Garcia Agrega Cancha B",
+    "hora":"13:00:00",
+    "fecha":"2021-02-21",
+    "fec_insercion":"2023-03-28 19:36:27",
+    "fec_modificacion":"2023-03-28 19:36:27",
+    "usuario":"1",
+    "estado":"A"
+},
+    {
+    "_id":8,
+    "jugadores_titulares":[{
+        "certificado":"CER_Jorge.jpg",
+        "foto":"Mora.jpg"
+    }],
+    "torneos":[{
+        "nombre":"Tornea ATF",
+        "lugar":"Garcia Agreda",
+        "fecha_inicio":"2021-03-21",
+        "fecha_fin":"2021-11-24"
+    }],
+    "lugar":"Bombonera ",
+    "hora":"12:30:00",
+    "fecha":"2021-02-21",
+    "fec_insercion":"2023-03-28 19:36:27",
+    "fec_modificacion":"2023-03-28 19:36:27",
+    "usuario":"1",
+    "estado":"A"
+},
+    {
+    "_id":9,
+    "jugadores_titulares":[{
+        "certificado":"CER_Luis.jpg",
+        "foto":"Moreira.jpg"
+    }],
+    "torneos":[{
+        "nombre":"Tornea Mendes Arcos",
+        "lugar":"barrio mendes arcos",
+        "fecha_inicio":"2021-03-21",
+        "fecha_fin":"2021-10-24"
+    }],
+    "lugar":"Estadion Tabladita II ",
+    "hora":"18:00:00",
+    "fecha":"2021-02-21",
+    "fec_insercion":"2023-03-28 19:36:27",
+    "fec_modificacion":"2023-03-28 19:36:27",
+    "usuario":"1",
+    "estado":"A"
+},
+    {
+    "_id":10,
+    "jugadores_titulares":[{
+        "certificado":"CER_Ariel.jpg",
+        "foto":"Camacho.jpg"
+    }],
+    "torneos":[{
+        "nombre":"partido de barrio",
+        "lugar":"barrio la loma",
+        "fecha_inicio":"2023-03-31",
+        "fecha_fin":"2023-04-07"
+        
+    }],
+    "lugar":"Garcia Agrega Chanca C ",
+    "hora":"17:00:00",
+    "fecha":"2021-02-21",
+    "fec_insercion":"2023-03-28 19:36:27",
+    "fec_modificacion":"2023-03-28 19:36:27",
+    "usuario":"1",
+    "estado":"A"
+}
+    ]
+
+    //coleccion mensualidades
+
+    [
+        {"_id":1,
+        "fecha":"2021-12-01",
+        "costo":"70bs",
+        "fec_insercion":"2023-04-05 06:50:09",
+        "fec_modificacion":"2023-04-04 23:50:38",
+        "usuario":"1",
+        "estado":"A",
+
+        "jugadores": {
+        "jugador_id": 1
+    }
+    },
+    
+        {
+        "_id":2,
+        "fecha":"2021-12-01",
+        "costo":"80bs",
+        "fec_insercion":"2023-04-05 06:50:04",
+        "fec_modificacion":"2023-10-24 19:24:23",
+        "usuario":"1",
+        "estado":"A",
+
+        "jugadores": {
+        "jugador_id": 2
+        }
+    },
+        {
+            "_id":3,
+            "fecha":"2021-12-01",
+            "costo":"70bs",
+            "fec_insercion":"2023-04-05 06:49:58",
+            "fec_modificacion":"2023-10-24 19:24:30",
+            "usuario":"1",
+            "estado":"A",
+
+            "jugadores": {
+            "jugador_id": 3
+            }
+        },
+
+        {
+            "_id":4,
+            "fecha":"2021-12-01",
+            "costo":"70bs",
+            "fec_insercion":"2023-04-05 06:49:52",
+            "fec_modificacion":"2023-10-24 19:25:30",
+            "usuario":"1",
+            "estado":"A",
+
+            "jugadores": {
+                "jugador_id": 4
+            }
+        },
+
+        {
+            "_id":5
+            ,"fecha"
+            :"2021-12-01",
+            "costo":"70bs",
+            "fec_insercion":"2023-03-28 19:36:26",
+            "fec_modificacion":"2023-10-24 19:25:35",
+            "usuario":"1",
+            "estado":"A",
+            "jugadores": {
+                "jugador_id": 5
+            }
+    },
+
+        {
+            "_id":6,
+            "fecha":"2021-12-01",
+            "costo":"98bs",
+            "fec_insercion":"2023-10-24 19:22:50",
+            "fec_modificacion":"2023-10-24 19:25:39",
+            "usuario":"1",
+            "estado":"A",
+            "jugadores": {
+                "jugador_id": 6
+            }
+        },
+        {
+            "_id":7,
+            "fecha":"2021-12-01",
+            "costo":"7bs",
+            "fec_insercion":"2023-03-31 02:49:29",
+            "fec_modificacion":"2023-10-24 19:25:43",
+            "usuario":"1",
+            "estado":"A",
+            "jugadores": {
+                "jugador_id": 7
+            }
+        },
+        {
+            "_id":8,
+            "fecha":"2021-12-01",
+            "costo":"45bs",
+            "fec_insercion":"2023-03-31 03:11:44",
+            "fec_modificacion":"2023-10-24 19:25:47",
+            "usuario":"1",
+            "estado":"A",
+            "jugadores": {
+                "jugador_id": 8
+            }
+        },
+
+
+        {
+            "_id":9,
+            "fecha":"2021-12-01",
+            "costo":"70bs",
+            "fec_insercion":"2023-03-31 05:44:06",
+            "fec_modificacion":"2023-10-24 19:25:50",
+            "usuario":"1",
+            "estado":"A",
+            "jugadores": {
+                "jugador_id": 9
+            }
+    },
+        {
+            "_id":10,
+            "fecha":"2023-04-18",
+            "costo":"60bs",
+            "fec_insercion":"2023-04-28 04:27:42",
+            "fec_modificacion":"2023-10-24 19:25:53",
+            "usuario":"1",
+            "estado":"A",
+            "jugadores": {
+                "jugador_id": 10
+            }
+    }
+        ]
+
+
+        //coleccion de uniformes
+
+        [
+            {
+            "_id":1,
+            "nro_prenda":"dos",
+            "descripcion":"pantalon",
+            "fec_insercion":"2023-03-28 19:36:24",
+            "fec_modificacion":"2023-03-28 19:36:24",
+            "usuario":"1",
+            "estado":"A",
+            "escuela_de_futbol": {
+                "escuela_futbol_id": 1
+            }
+
+        },
+            {
+            "_id":2,
+            "nro_prenda":"tres",
+            "descripcion":"polera",
+            "fec_insercion":"2023-03-28 19:36:25",
+            "fec_modificacion":"2023-03-28 19:36:25",
+            "usuario":"1",
+            "estado":"A",
+            "escuela_de_futbol": {
+                "escuela_futbol_id": 1
+            }
+        },
+            {
+            "_id":3,
+            "nro_prenda":"cuatro",
+            "descripcion":"canilleras",
+            "fec_insercion":"2023-03-28 19:36:25",
+            "fec_modificacion":"2023-03-28 19:36:25",
+            "usuario":"1",
+            "estado":"A",
+            "escuela_de_futbol": {
+                "escuela_futbol_id": 1
+            }
+        },
+            {
+            "_id":4,
+            "nro_prenda":"dos",
+            "descripcion":"polera",
+            "fec_insercion":"2023-03-28 19:36:25",
+            "fec_modificacion":"2023-03-28 19:36:25",
+            "usuario":"1",
+            "estado":"A",
+            "escuela_de_futbol": {
+                "escuela_futbol_id": 1
+            }
+        },
+            {
+            "_id":5,
+            "nro_prenda":"una",
+            "descripcion":"gorra",
+            "fec_insercion":"2023-03-28 19:36:25",
+            "fec_modificacion":"2023-03-28 19:36:25",
+            "usuario":"1",
+            "estado":"A",
+            "escuela_de_futbol": {
+                "escuela_futbol_id": 1
+            }
+        },
+            {
+            "_id":6,
+            "nro_prenda":"dos",
+            "descripcion":"canilleras",
+            "fec_insercion":"2023-03-28 19:36:25",
+            "fec_modificacion":"2023-03-28 19:36:25",
+            "usuario":"1",
+            "estado":"A",
+            "escuela_de_futbol": {
+                "escuela_futbol_id": 1
+            }
+        },
+            {
+            "_id":7,
+            "nro_prenda":"tres",
+            "descripcion":"pantalon",
+            "fec_insercion":"2023-03-28 19:36:25",
+            "fec_modificacion":"2023-03-28 19:36:25",
+            "usuario":"1",
+            "estado":"A",
+            "escuela_de_futbol": {
+                "escuela_futbol_id": 1
+            }
+        },
+            {
+            "_id":8,
+            "nro_prenda":"cuatro",
+            "descripcion":"campera",
+            "fec_insercion":"2023-03-28 19:36:25",
+            "fec_modificacion":"2023-03-28 19:36:25",
+            "usuario":"1",
+            "estado":"A",
+            "escuela_de_futbol": {
+                "escuela_futbol_id": 1
+            }
+        },
+            {
+            "_id":9,
+            "nro_prenda":"una",
+            "descripcion":"imperniable",
+            "fec_insercion":"2023-03-28 19:36:25",
+            "fec_modificacion":"2023-03-28 19:36:25",
+            "usuario":"1",
+            "estado":"A",
+            "escuela_de_futbol": {
+                "escuela_futbol_id": 1
+            }
+        },
+            {
+            "_id":10,
+            "nro_prenda":"dos",
+            "descripcion":"pantalon",
+            "fec_insercion":"2023-03-28 19:36:25",
+            "fec_modificacion":"2023-03-28 19:36:25",
+            "usuario":"1",
+            "estado":"A",
+            "escuela_de_futbol": {
+                "escuela_futbol_id": 1
+            }
+
+        }
+            ]
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
